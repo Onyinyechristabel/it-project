@@ -1,0 +1,131 @@
+.hide {
+  display: none;
+}
+#root {
+  background-image: url("./assets/Laptop.jpg");
+  background-size: cover;
+  font-family: "Cabinet Grotesk", sans-serif;
+}
+.hero {
+  width: 144rem;
+  backdrop-filter: brightness(0.4);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero__qa {
+  width: 100%;
+  padding: 0 4rem;
+}
+.hero__question {
+  font-size: 7.2rem;
+  line-height: 1.1;
+}
+.hero__answer {
+  background: inherit;
+  border: none;
+  font-family: "Cabinet Grotesk";
+  font-size: 4rem;
+  display: block;
+}
+.hero__answer {
+  color: aquamarine;
+  margin-top: 2rem;
+  border-bottom: 0.2rem solid #6f706f;
+}
+.hero__btn {
+  background-color: #2e8769;
+  border-radius: 3.6rem;
+  cursor: pointer;
+  width: 15rem;
+  font-family: "Cabinet Grotesk";
+  font-size: 2.4rem;
+  line-height: 100%;
+  margin-top: 3rem;
+  font-weight: 700;
+}
+.hero__footer {
+  position: absolute;
+  bottom: 2rem;
+  display: flex;
+  width: 100%;
+}
+.hero__footer__btnname {
+  display: block;
+  margin-left: auto;
+}
+.hero__footer__btnup {
+  background-color: #2e8769;
+  border-radius: 3.6rem 0 0 3.6rem;
+  cursor: pointer;
+  width: 6rem;
+  font-family: "Cabinet Grotesk";
+  font-size: 2.4rem;
+  line-height: 100%;
+  margin-top: 3rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  padding-left: 4rem;
+}
+.hero__footer__btndown {
+  background-color: #2e8769;
+  border-radius: 0 3.6rem 3.6rem 0;
+  cursor: pointer;
+  width: 6rem;
+  font-family: "Cabinet Grotesk";
+  font-size: 2.4rem;
+  line-height: 100%;
+  margin-top: 3rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 4rem;
+}
+.hero__footer__btnname {
+  background-color: #2e8769;
+  cursor: pointer;
+  width: 25rem;
+  font-family: "Cabinet Grotesk";
+  font-size: 2.4rem;
+  line-height: 100%;
+  margin-top: 3rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
+  border-radius: 3.6rem;
+}
+.hero__class__Wrapper {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.hero__class {
+  width: 30rem;
+  border-color: aquamarine;
+  color: aquamarine;
+  font-size: 2.4rem;
+  font-family: "Cabinet Grotesk";
+  background: #ffffff45;
+  border-radius: 4rem;
+}
+
+.recommendations {
+  font-size: 10.2rem;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.recommendations__details {
+  font-size: 3.2rem;
+  line-height: 1.1;
+  text-align: center;
+}
